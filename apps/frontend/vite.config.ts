@@ -5,7 +5,7 @@ import { nxViteTsPaths } from '@nx/vite/plugins/nx-tsconfig-paths.plugin';
 
 export default defineConfig({
   root: __dirname,
-  cacheDir: '../../node_modules/.vite/apps/dataflow-poc',
+  cacheDir: '../../node_modules/.vite/apps/frontend',
 
   server: {
     port: 4200,
@@ -25,7 +25,7 @@ export default defineConfig({
   // },
 
   build: {
-    outDir: '../../dist/apps/dataflow-poc',
+    outDir: '../../dist/apps/frontend',
     emptyOutDir: true,
     reportCompressedSize: true,
     commonjsOptions: {
